@@ -22,5 +22,5 @@ keywords:
   - negative results
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.PLACEHOLDER
+    value: 10.5281/zenodo.21045541
     description: "The archived release on Zenodo (concept DOI, resolves to the latest version), MIT code + CC-BY writeups."
