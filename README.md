@@ -48,3 +48,15 @@ All inputs are free. `pip install -r requirements.txt`, then run the pipeline in
 ## License & citation
 
 Code under MIT; the writeups under CC-BY-4.0. See `CITATION.cff`. Archived on Zenodo (DOI in `CITATION.cff`). Author: Zach Dissington (ORCID 0009-0007-0196-1371).
+
+
+## Related artifacts
+
+Part of a series of open, honest research kill-tests, most are negative results, published so others can build on or disprove them rather than duplicate the work:
+
+- [InSAR accountability kill-tests](https://github.com/zachdissington/insar-accountability-killtests): free Sentinel-1 deformation vs official/self-reported records (tailings dams, levees). DOI [10.5281/zenodo.21045290](https://doi.org/10.5281/zenodo.21045290)
+- [Nightlights vs official GDP](https://github.com/zachdissington/nightlights-gdp-killtest): does the autocracy over-reporting gradient reproduce on VIIRS? DOI [10.5281/zenodo.21045541](https://doi.org/10.5281/zenodo.21045541)
+- [Space-economy solo-wedge assessment](https://github.com/zachdissington/space-economy-killtest): is there a foundable solo wedge in the orbital attribution layer? DOI [10.5281/zenodo.21045736](https://doi.org/10.5281/zenodo.21045736)
+- [Climate Solutions Research Kit](https://github.com/zachdissington/climate-solutions-research-kit): spatial-prior method + the validated CF4 smelter prior. DOI [10.5281/zenodo.20617485](https://doi.org/10.5281/zenodo.20617485)
+
+Author: Zach Dissington (ORCID [0009-0007-0196-1371](https://orcid.org/0009-0007-0196-1371)).
