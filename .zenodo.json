@@ -1,0 +1,23 @@
+{
+  "upload_type": "software",
+  "title": "Nightlights vs Official GDP Kill-Test: does the autocracy over-reporting gradient reproduce on the VIIRS era?",
+  "description": "An honest negative result. It tests whether Martinez's (2022, Journal of Political Economy) finding that autocracies overstate GDP growth, identified via a higher night-lights-to-GDP elasticity, reproduces on the VIIRS satellite era (2012-2023) using only free public data (World Bank WDI GDP, Earth Observation Atlas VIIRS sum-of-lights, V-Dem regime). Panel: ~170 countries x 2012-2023; model log(realGDP) = b*log(sum-of-lights) + g*[log(SoL) x autocracy] + country and year fixed effects, SE clustered by country. Verdict NO-GO: the clean within-country gradient g is +0.002 (insignificant, robust to dropping gas-flaring countries) and the cross-sectional gradient is -0.24 (significant but the wrong sign). The autocracy over-reporting signal does not reproduce on the short VIIRS window (Martinez's headline used DMSP 1992-2013), so a live VIIRS-era named-government discrepancy product has no reproducible signal. Code is MIT; the writeups are CC-BY-4.0. Reusable panel pipeline for a DMSP-bridge revisit.",
+  "creators": [
+    {
+      "name": "Dissington, Zach",
+      "orcid": "0009-0007-0196-1371"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "night lights",
+    "VIIRS",
+    "GDP",
+    "economic statistics",
+    "autocracy",
+    "elasticity",
+    "panel regression",
+    "negative results"
+  ]
+}

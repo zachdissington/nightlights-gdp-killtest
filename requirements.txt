@@ -1,0 +1,5 @@
+# Nightlights-vs-GDP elasticity kill-test
+numpy
+pandas
+statsmodels   # panel regression: country + year fixed effects, SE clustered by country
+requests      # World Bank WDI API + Earth Observation Atlas VIIRS download

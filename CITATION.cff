@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Nightlights vs Official GDP Kill-Test: does the autocracy over-reporting gradient reproduce on the VIIRS era?"
+abstract: "An honest negative result. It tests whether Martinez's (2022, JPE) finding that autocracies overstate GDP growth, identified via a higher night-lights-to-GDP elasticity, reproduces on the VIIRS satellite era (2012-2023) using only free public data (World Bank WDI GDP, Earth Observation Atlas VIIRS sum-of-lights, V-Dem regime). Verdict NO-GO: the within-country gradient is ~0 (insignificant) and the cross-sectional gradient has the wrong sign. The autocracy over-reporting signal does not reproduce on the short VIIRS window, so a live VIIRS-era named-government discrepancy product has no reproducible signal. Includes the reusable panel-regression pipeline (reusable for a DMSP-bridge revisit)."
+type: software
+authors:
+  - family-names: Dissington
+    given-names: Zach
+    orcid: "https://orcid.org/0009-0007-0196-1371"
+repository-code: "https://github.com/zachdissington/nightlights-gdp-killtest"
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-29"
+keywords:
+  - night lights
+  - VIIRS
+  - GDP
+  - economic statistics
+  - autocracy
+  - elasticity
+  - panel regression
+  - negative results
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.PLACEHOLDER
+    description: "The archived release on Zenodo (concept DOI, resolves to the latest version), MIT code + CC-BY writeups."

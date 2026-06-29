@@ -1,0 +1,25 @@
+# Downloaded source data, fetched at runtime, never committed.
+**/.data/
+**/data/
+*.csv
+*.nc
+*.tif
+*.zip
+
+# Generated outputs
+**/outputs/
+
+# Local handoff / secrets
+PUSH_ME.md
+.env
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
